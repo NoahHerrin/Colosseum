@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Colosseum</title>
+  </head>
+
+  <body>
+    <h1>Colosseum</h1>
+    <h2>a platform for nerd wars</h2>
+
+    <form name="loginform" onsubmit="validateForm();" method="post">
+      <label>User name</label>
+      <input type="text" name="usr" placeholder="username">
+      <label>Password</label>
+      <input type="password" name="pword" placeholder="password">
+      <input type="submit" value="Login"/>
+  </form>
+  <p id="h">
+
+  </p>
+
+  <script>
+  console.log("hello");
+      function validateForm() {
+        console.log("this actually works")
+          var un = document.loginform.usr.value;
+          var pw = document.loginform.pword.value;
+          console.log(un);
+          console.log(pw);
+          document.getElementById("h").innerHTML = un + pw;
+          return true;
+    }
+  </script>
+        </body>
+</html>

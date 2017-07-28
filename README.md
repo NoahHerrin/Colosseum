@@ -24,5 +24,31 @@ Details of each Object Type:
 
   + Match
     - participants
-      * userid
+      * user id (linked to a user account)
+      * team id
+      * list of user id's that participant has tagged or "killed"
+      * alive status
+      * location (GPS or relative)
+    - teams (optional)
+      * team name (default team one, two, etc..)
+      * team id
+      * list of user id's
+      * list of team communications
+      * team's revive
+    - communications
+      * GPS callouts (group up on me/ meet here)
+      * x participant is dead/ x participant has killed participant y
+    - game mode idea's
+      * pubg shrinking match radius
+      * revive via going to specific location
+
+User Experience's:
+  + User Network:
+    1. Open Website, or App
+    2. Prompted to Signin or Signup
+    3. Create Account with email, username, and password
+
+
+
+
     -
